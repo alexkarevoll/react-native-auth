@@ -32,4 +32,4 @@ const styles = {
 };
 
 // Make the component available to other parts of the app
-export default Header;
+export { Header }; // we need this because of our common index.js strategy
